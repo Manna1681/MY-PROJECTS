@@ -1,0 +1,35 @@
+.search-bar {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .email {
+    display: block;
+  }
+  .letter{
+    display: inline-block;
+  }
+  .yes{
+   display: inline-block; 
+   vertical-align: middle;
+   margin-bottom: 35px;
+   margin-left: 20px;
+  }
+  .no{
+    display: inline;
+    vertical-align: middle;
+    margin-bottom: 35px;
+    margin-left: 2px;
+  }
+  .logo{
+    margin-top: 30px;
+    width: 200px;
+    display: block;
+    margin-left: 500px;
+    margin-bottom: 15px;
+  }
+
+    
+    
+    
+  
