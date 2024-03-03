@@ -1,0 +1,130 @@
+.Request-button {
+    background-color: darkslategray;
+    color: white;
+    height: 55px;
+    width: 160px;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 25px;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  .Request-button:hover {
+    background-color: red;
+    color: black;
+  }
+  .Request-button:active {
+    background-color: yellow;
+    color: yellowgreen;
+  }
+
+  .Cart-button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: bold;
+    transition: opacity 0.5s;
+  }
+  .Cart-button:hover {
+    opacity: 0.5;
+  }
+  .Cart-button:active {
+    opacity: 0.2;
+  }
+  .Sign-button {
+    background-color: rgb(46, 164, 79);
+    color: whitesmoke;
+    height: 40px;
+    width: 120px;
+    margin-left: 25px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.5s;
+  }
+  .Sign-button:hover {
+    background-color: rgb(46, 200, 79);
+    color: whitesmoke;
+  }
+  .Sign-button:active {
+    background-color: blue;
+    color: chartreuse;
+  }
+  .Get-button {
+    background-color: rgb(121, 82, 179);
+    color: whitesmoke;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: rgb(121, 82, 179);
+    height: 40px;
+    width: 110px;
+    font-weight: bold;
+    margin-left: 25px;
+  }
+  .Download-button {
+    background-color: whitesmoke;
+    color: rgb(108, 117, 125);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    border-radius: 2px;
+    border-width: 0.2px;
+    border-color: rgb(108, 117, 125);
+
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    transition: box-shadow 0.8s;
+  }
+  .Download-button:hover {
+    box-shadow: 10px 10px 10px rgba(0, 255, 0, 0.5);
+  }
+  .Apply-button {
+    background-color: rgb(10, 102, 194);
+    color: whitesmoke;
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: small;
+    border-width: 1px;
+    border-color: rgb(10, 102, 194);
+    box-shadow: 5px 5px 5px red;
+  }
+  .Save-button {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    font-size: medium;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border-color: rgb(10, 102, 194);
+    border: solid;
+    border-width: 1px;
+    margin-left: 5px;
+  }
+  .search-bar{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(158, 252, 16);
+    color: red;
+  }
+  .search-bar:hover{
+    box-shadow: 2px 2px 10px blue;
+    transition: 0.5s;
+  }
