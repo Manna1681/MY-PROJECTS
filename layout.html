@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Facebook Layout</title>
+    <style>
+      .pic {
+        width: 250px;
+        display: block;
+        margin-bottom: 12px;
+      }
+      .name {
+        margin-left: 10px;
+        text-decoration: solid;
+        font-size: larger;
+        font-weight: bolder;
+        font-family: arial;
+        font-style: normal;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .minipic {
+        width: 40px;
+        margin-left: 10px;
+        border-radius: 20px;
+        margin-top: 6px;
+      }
+      .picture {
+        display: inline;
+        vertical-align: middle;
+      }
+      .description {
+        font-family: arial;
+        display: inline;
+        vertical-align: top;
+        color: gray;
+        margin-inline-start: 5px;
+        margin-top: 20px;
+      }
+      .friend {
+        display: block;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 8px;
+        margin-left: 10px;
+        background-color: blue;
+        border: 1px;
+        border-radius: 5px;
+        color: whitesmoke;
+        font-size: medium;
+        font-family: arial;
+        font-weight: bold;
+      }
+      .whole {
+        width: fit-content;
+        background-color: whitesmoke;
+        margin-left: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="whole">
+      <img class="pic" src="catty.png" alt="profile picture" />
+      <p class="name">Mimi</p>
+      <div class="picture">
+        <img class="minipic" src="catty.png" alt="picture" />
+
+        <p class="description">100 mutual friends</p>
+      </div>
+      <button class="friend">Add Friend</button>
+    </div>
+  </body>
+</html>
